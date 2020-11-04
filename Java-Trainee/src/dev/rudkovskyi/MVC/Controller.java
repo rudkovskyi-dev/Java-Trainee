@@ -1,6 +1,6 @@
-package dev.rudkovskyi.MVC;
+package dev.rudkovskyi.mvc;
 
-import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
 public class Controller {
@@ -65,10 +65,10 @@ public class Controller {
         return sc.nextInt();
     }
 
-    public void printAttempts(ArrayList<Integer> previousAttempts){
-        String sequence = "";
+    public void printAttempts(List<Integer> previousAttempts){
+        StringBuilder sequence = new StringBuilder();
         for (Integer value : previousAttempts){
-            sequence += value + " ";
+            sequence.append(value).append(" ");
         }
         view.printMessage(View.YOUR_SEQUENCE_WAS + sequence);
     }
