@@ -1,4 +1,4 @@
-package dev.rudkovskyi.MVC;
+package dev.rudkovskyi.mvc;
 
 public class Main {
     public static void main(String[] args) {
