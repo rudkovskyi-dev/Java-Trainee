@@ -1,6 +1,7 @@
-package dev.rudkovskyi.MVC;
+package dev.rudkovskyi.mvc;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class Model {
     private static final int MIN_VALUE = 0;
@@ -33,7 +34,7 @@ public class Model {
         return rightBorder;
     }
 
-    public ArrayList<Integer> getStatistics(){
+    public List<Integer> getStatistics(){
         return statistics;
     }
 
@@ -69,9 +70,6 @@ public class Model {
     }
 
     public boolean isOutOfTheRange(int value){
-        if (value < leftBorder || value > rightBorder){
-            return true;
-        }
-        return false;
+        return (value < leftBorder || value > rightBorder);
     }
 }
