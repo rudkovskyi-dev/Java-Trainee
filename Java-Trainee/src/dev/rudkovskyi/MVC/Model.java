@@ -26,6 +26,10 @@ public class Model {
         this.secretNumber = (int)random;
     }
 
+    public int getSecretNumber(){
+        return secretNumber;
+    }
+
     public int getLeftBorder(){
         return leftBorder;
     }
