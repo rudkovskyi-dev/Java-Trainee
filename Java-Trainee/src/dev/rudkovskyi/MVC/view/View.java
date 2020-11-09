@@ -1,4 +1,4 @@
-package dev.rudkovskyi.MVC;
+package dev.rudkovskyi.mvc.view;
 
 public class View {
     // Text's constants

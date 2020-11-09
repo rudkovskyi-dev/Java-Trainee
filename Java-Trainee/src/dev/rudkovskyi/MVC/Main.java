@@ -1,4 +1,8 @@
-package dev.rudkovskyi.MVC;
+package dev.rudkovskyi.mvc;
+
+import dev.rudkovskyi.mvc.controller.Controller;
+import dev.rudkovskyi.mvc.model.Model;
+import dev.rudkovskyi.mvc.view.View;
 
 public class Main {
     public static void main(String[] args) {

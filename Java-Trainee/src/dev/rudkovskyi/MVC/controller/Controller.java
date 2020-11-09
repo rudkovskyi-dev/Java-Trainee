@@ -1,4 +1,7 @@
-package dev.rudkovskyi.MVC;
+package dev.rudkovskyi.mvc.controller;
+
+import dev.rudkovskyi.mvc.model.Model;
+import dev.rudkovskyi.mvc.view.View;
 
 public class Controller {
     private final Model model;
